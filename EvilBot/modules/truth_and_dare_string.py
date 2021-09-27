@@ -1,5 +1,5 @@
 TRUTH = (
-    "Have you ghosted someone?"
+    "Have you ghosted someone like prachi devil?"
     "Have you ever walked in on your parents doing 'it'?",
     "Who was the last person you liked the most? Why?",
     "Have you ever been suspended from school?",
@@ -10,17 +10,18 @@ TRUTH = (
     "Would you cheat on your boyfriend for a rich guy?",
     "What is your biggest turn on?",
     "When’s the last time you lied to your parents and why?",
-    "Describe your ideal partner.",
+    "Is your boyfriend cool and smart?",
     "What’s the scariest thing you’ve ever done?",
     "Have you ever picked your nose and eaten it?",
     "When’s the last time you lied to your parents and why?",
     "Have you ever lied about your age to participate in a contest?",
-    "Have you ever been caught checking someone out?",
+    "Do you think prachi is cute?",
+    
   
 )
 
 DARE = (
-    "Show the most embarrassing photo on your phone"
+    "Simp on girls in your group"
     "Show the last five people you texted and what the messages said",
     "Let the rest of the group DM someone from your Instagram account",
     "Eat a raw piece of garlic",
