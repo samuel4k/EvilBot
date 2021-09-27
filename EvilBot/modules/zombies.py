@@ -52,7 +52,7 @@ async def is_administrator(user_id: int, message):
 
 @telethn.on(events.NewMessage(pattern="^[!/]zombies ?(.*)"))
 async def zombies(event):
-    """ For .zombies command, list all the zombies in a chat. """
+    """ For .zombies command, list all the Vampires in a chat. """
 
     con = event.pattern_match.group(1).lower()
     del_u = 0
@@ -96,7 +96,7 @@ async def zombies(event):
                     EditBannedRequest(event.chat_id, user.id, BANNED_RIGHTS)
                 )
             except ChatAdminRequiredError:
-                await cleaning_zombies.edit("I Don't Have Ban Rights In This Group.")
+                await cleaning_zombies.edit("I Don't Have enough Rights In This Group.")
                 return
             except UserAdminInvalidError:
                 del_u -= 1
